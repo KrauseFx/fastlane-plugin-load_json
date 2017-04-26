@@ -11,14 +11,14 @@ Gem::Specification.new do |spec|
   spec.email         = 'krausefx@gmail.com'
 
   spec.summary       = 'Loads a local JSON file and parses it'
-  # spec.homepage      = "https://github.com/<GITHUB_USERNAME>/fastlane-plugin-load_json"
+  spec.homepage      = "https://github.com/KrauseFx/fastlane-plugin-load_json"
   spec.license       = "MIT"
 
   spec.files         = Dir["lib/**/*"] + %w(README.md LICENSE)
   spec.test_files    = spec.files.grep(%r{^(test|spec|features)/})
   spec.require_paths = ['lib']
 
-  # Don't add a dependency to fastlane or fastlane_re
+  # Don't add a dependency to fastlane
   # since this would cause a circular dependency
 
   # spec.add_dependency 'your-dependency', '~> 1.0.0'
