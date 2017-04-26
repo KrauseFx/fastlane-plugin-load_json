@@ -1,0 +1,4 @@
+lane :test do
+  content = load_json(json_path: "example.json")
+  UI.message(content["data"])
+end
