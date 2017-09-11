@@ -8,7 +8,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'fastlane-plugin-load_json'
   spec.version       = Fastlane::LoadJson::VERSION
   spec.author        = 'Felix Krause'
-  spec.email         = 'krausefx@gmail.com'
+  spec.email         = 'json@krausefx.com'
 
   spec.summary       = 'Loads a local JSON file and parses it'
   spec.homepage      = "https://github.com/KrauseFx/fastlane-plugin-load_json"
